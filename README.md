@@ -17,6 +17,12 @@
 ![Alt text](/figures/monthly/pred_lstm_n=8_f=1_40_50_60_sigmoid_3hl_.png)
 * mais um bla bla bla
 
+![Alt text](/figures/monthly/disp_lstm_n=8_f=1_40_50_60_sigmoid_3hl_.png)
+* mais outro bla bla bla
+
+
+
+
 
 
 
