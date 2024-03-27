@@ -4,43 +4,41 @@
 
 * I did develop the end to end solution for this benchmarking. Beginning by collecting the precipitation geospacial data from INPE web API (http://ftp.cptec.inpe.br/modelos/tempo/MERGE/GPM/DAILY/) developing a python data pipeline (merge_extraction.py) and then clipping the raw extracted data with Itaipu hydrographic basin shapefile (merge_processing_prec_sum_clipped_itaipu_incremental.py) so we have the daily precipitation data in our coordinates of interest. We finally sum the precipitation data over all the selected coordinates for each time step.
 
-* Then, we collected the daily flow rate from each hydroelectric plant in the ONS brazilian system and filtered by the Itaipu plant. 
+* Then, we collected the daily flow rate from each hydroelectric plant in the ONS brazilian system and filtered by the Itaipu plant, and now we have all the necessary variables to perform a methodology and evaluate it by the benchmarking results.
 
-* In the end, we have all the necessary variables to perform a methodology and evaluate it by the benchmarking results.
-
- traditional Machine Learning algorithms (such as Decision Tree, Linear Regression, Random Forest)
+* In this project, we're working with traditional ML algorithms (basic ones, like Decision Tree, Linear Regression and Random Forest, but also powerful ones, such as XGBoost) and Recurrent Neural Networks (RNN), like mentioned, such as Long short-term memory (LSTM) and Gated recurrent unit (GRU).   
 
 ![Alt text](/figures/monthly/history_vazao_vs_precBacia.png)
-* Flow rate x hydrographic basin precipitation 
+* Hystorical data from 2001-2021 of Itaipu flow rate x hydrographic basin precipitation sum aggregation
 
 
-## Monthly prediction of flow rate in Itaipu Hydroelectric Plant
+## Plots for Monthly prediction of flow rate in Itaipu Hydroelectric Plant
 
 ![Alt text](/figures/monthly/r2_monthly.png)
-* bla bla
+
 
 ![Alt text](/figures/monthly/rmse_monthly.png)
-* outro bla bla bla
+
 
 ![Alt text](/figures/monthly/pred_lstm_n=8_f=1_40_50_60_sigmoid_3hl_.png)
-* mais um bla bla bla
+
 
 ![Alt text](/figures/monthly/disp_lstm_n=8_f=1_40_50_60_sigmoid_3hl_.png)
-* mais outro bla bla bla
 
-## Weekly prediction of flow rate in Itaipu Hydroelectric Plant
+
+## Plots for Weekly prediction of flow rate in Itaipu Hydroelectric Plant
 
 ![Alt text](/figures/weekly/lstm_series_n=5_f=1.png)
-* bla bla 1
+
 
 ![Alt text](/figures/weekly/gru_1.png)
-* bla bla 2
+
 
 ![Alt text](/figures/weekly/gru_3.png)
-* bla bla 3
+
 
 ![Alt text](/figures/weekly/lstm_disp_n=5_f=1.png)
-* bla bla 4
+
 
 
 
