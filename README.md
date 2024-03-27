@@ -26,8 +26,11 @@
 ![Alt text](/figures/weekly/gru_1.png)
 * bla bla 2
 
-![Alt text](/figures/weekly/lstm_disp_n=5_f=1.png)
+![Alt text](/figures/weekly/gru_3.png)
 * bla bla 3
+
+![Alt text](/figures/weekly/lstm_disp_n=5_f=1.png)
+* bla bla 4
 
 
 
