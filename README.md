@@ -2,7 +2,7 @@
 
 * The goal was to develop a weekly and monthly benchmarking of different ML algorithms to predict Itaipu Hydroelectric Plant flow rate with time series data. 
 
-* I did develop the end to end solution for this benchmarking. Beginning by collecting the precipitation geospacial data from INPE web API (http://ftp.cptec.inpe.br/modelos/tempo/MERGE/GPM/DAILY/) developing a python data pipeline (merge_extraction.py) and then clipping the raw extracted data with Itaipu hydrographic basin shapefile (merge_processing_prec_sum_clipped_itaipu_incremental.py) so we have daily precipitation data in our region of interest. Then, we collected the daily flow rate from each hydroelectric plant in the ONS brazilian system and filtered by the Itaipu plant.
+* I did develop the end to end solution for this benchmarking. Beginning by collecting the precipitation geospacial data from INPE web API (http://ftp.cptec.inpe.br/modelos/tempo/MERGE/GPM/DAILY/) developing a python data pipeline (merge_extraction.py) and then clipping the raw extracted data with Itaipu hydrographic basin shapefile (merge_processing_prec_sum_clipped_itaipu_incremental.py) so we finally have the daily precipitation data in our region of interest. Then, we collected the daily flow rate from each hydroelectric plant in the ONS brazilian system and filtered by the Itaipu plant. In the end, we have all the necessary variables to perform a metodology and evaluate it by the benchmarking results.
 
  traditional Machine Learning algorithms (such as Decision Tree, Linear Regression, Random Forest)
 
