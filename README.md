@@ -23,6 +23,16 @@
 ![Alt text](/figures/weekly/lstm_series_n=5_f=1.png)
 * bla bla 1
 
+![Alt text](/figures/weekly/gru_1.png)
+* bla bla 2
+
+![Alt text](/figures/weekly/lstm_disp_n=5_f=1.png)
+* bla bla 3
+
+
+
+
+
 
 
 
