@@ -6,7 +6,7 @@
 
 ## Monthly prediction of flow rate in Itaipu Hydroelectric Plant
 
-![Alt text](/figures/monthly/r2_motnhly.png)
+![Alt text](/figures/monthly/r2_monthly.png)
 * bla bla
 
 
