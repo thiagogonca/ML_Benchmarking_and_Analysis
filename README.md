@@ -28,13 +28,13 @@
 
 ## Plots for Weekly prediction of flow rate in Itaipu Hydroelectric Plant
 
-![Alt text](/figures/weekly/lstm_series_n=5_f=1.png)
-
-
 ![Alt text](/figures/weekly/gru_1.png)
 
 
 ![Alt text](/figures/weekly/gru_3.png)
+
+
+![Alt text](/figures/weekly/lstm_series_n=5_f=1.png)
 
 
 ![Alt text](/figures/weekly/lstm_disp_n=5_f=1.png)
