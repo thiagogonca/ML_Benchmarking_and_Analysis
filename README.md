@@ -1,6 +1,6 @@
 # Machine Learning Benchmarking of flow rate prediction (regression)
 
-* The goal was to develop a weekly and monthly benchmarking of different ML algorithms to predict Itaipu Hydroelectric Plant flow rate with time series data. Recurrent Neural Networks (RNN) such as Long short-term memory (LSTM) and Gated recurrent unit (GRU) achieved the best overall scores in the becnhmarking selected metrics. 
+* The goal was to develop a weekly and monthly benchmarking of different ML algorithms to predict Itaipu Hydroelectric Plant flow rate with time series data. Recurrent Neural Networks (RNN) such as Long short-term memory (LSTM) and Gated recurrent unit (GRU), which are known from the literature as neural networks specialized in time series forecasting, achieved the best overall scores in the benchmarking selected metrics. 
 
 * I did develop the end to end solution for this benchmarking. Beginning by collecting the precipitation geospacial data from INPE web API (http://ftp.cptec.inpe.br/modelos/tempo/MERGE/GPM/DAILY/) developing a python data pipeline (merge_extraction.py) and then clipping the raw extracted data with Itaipu hydrographic basin shapefile (merge_processing_prec_sum_clipped_itaipu_incremental.py) so we finally have the daily precipitation data in our region of interest. 
 
